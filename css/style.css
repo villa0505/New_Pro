@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.form_container{
+    width: 25%;
+    background: rgb(47, 47, 47);
+    padding: 26px;
+    border-radius: 10px;
+    text-align: center;
+}
+.bth-container button{
+    border: none;
+}
+button{
+    padding: 5px;
+    border: none;
+    width: 49%;
+    font-size: 20px;
+    /* font-weight: bold; */
+
+}
+p{
+    color: #fff;
+    font-size: 20px;
+}
+.bth_container{
+    display: flex;
+}
+.bth_container button:nth-child(1){
+    background:#008042;
+}
+.bth_container button:nth-child(2){
+    font-size: 15px;
+}
+input{
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(176, 176, 176, 0.717);
+}
+.form_group{
+    margin-top: 10px;
+}
+input[type="text"]{
+    width: 49%;
+}
+input[type="password"], 
+input[type="email"]{
+    width: 99%;
+}
+.form_group button{
+    font-size: 20px;
+    background:#008042;
+    padding: 10px;
+    width: 99%;
+    border: none;
+    font-weight: bold;
+}
